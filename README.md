@@ -1,10 +1,10 @@
-*Core WebAPI Projesi
+*Core WebAPI Projesi =>
 DepartmentsController
 EmployeesController
 Program.cs
 appsettings.json
 
-*REACT PROJESİ
+*REACT PROJESİ =>
 Departments.js
 Employee.js
 Home.js
