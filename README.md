@@ -19,4 +19,22 @@ Variables.js
 ### `npm run build`
 npm i react-router-dom
 
+MSSQL TABLOLARI=>
+
+CREATE TABLE [dbo].[Department](
+	[DepartmentId] [int] IDENTITY(1,1) NOT NULL,
+	[DepartmentName] [nvarchar](500) NULL
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [dbo].[Employee](
+	[EmployeeId] [int] IDENTITY(1,1) NOT NULL,
+	[EmployeeName] [nvarchar](500) NULL,
+	[Department] [varchar](50) NULL,
+	[DateOfJoining] [datetime] NULL,
+	[PhotoFileName] [nvarchar](500) NULL
+) ON [PRIMARY]
+GO
+
 
